@@ -1,0 +1,187 @@
+
+svg {
+  fill: white;
+}
+
+.landing-section{
+  background-image: url("image-01.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 43%;
+}
+
+.navbar-left  a{
+text-align: left;
+color: whitesmoke;
+float: left;
+padding-top: 13px;
+padding-left: 5px;
+text-decoration: none;
+
+
+}
+
+.landing hr{
+height: 30%;
+width: 20%;
+color: brown;
+}
+
+.landing h3{
+text-align: center;
+color: whitesmoke;
+padding: 10px ;
+}
+
+.landing p{
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.hoveri:hover{
+  padding: 1px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.landing button{
+  background:none;
+width: 20% ;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    height: 40%;
+margin-left: 500px;
+padding: 20px;
+
+
+}
+
+.navbar-right a{
+  color: whitesmoke;
+  float: right;
+  padding-top: 13px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.landing{
+  padding-top: 70px;
+}
+
+
+
+#foto2 {
+  max-width: 30%;
+  max-height:30%;
+  padding-right: 80px;
+  border-radius: 30%;
+padding-left: 40px;
+}
+
+
+.container{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-left: 10px;
+  padding: 30px;
+
+}
+.container h3{
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.container p{
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center;
+}
+
+
+
+
+.cards{
+
+  background-color: #302d2d;
+  text-align: center;
+  color: rgb(209, 209, 209); 
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#paragraf{
+color: #5c5b5b;
+}
+
+.cards hr{
+  height: 30%;
+  width: 8%;
+  color: gray;
+  }
+
+.card-holder h4{
+font-style: bold;
+
+}
+
+.card-holder{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  
+}
+
+
+
+.card{
+  border-color: rgb(151, 155, 159);
+  border-radius: 20px;
+  padding: 15px;
+  flex-basis: 25%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.subscribe{
+  background-color: #f4f4f4;
+  height: 300;
+  text-align: center;
+  padding: 6%;
+  }
+  
+ 
+  
+  .subscribe button{
+    background-color: rgb(70, 70, 183);
+    width: 500px;
+    height: 30px;
+    color: aliceblue;
+    border-style: none;
+    margin-top: 20px;
+  }
+  
+  .footer{
+    border: 2px solid black;
+    height: 40px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(38, 36, 36);
+    color: aliceblue;
+  }
